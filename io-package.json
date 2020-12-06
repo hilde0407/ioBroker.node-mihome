@@ -1,0 +1,79 @@
+{
+	"common": {
+		"name": "node-mihome",
+		"version": "0.0.1",
+		"news": {
+			"0.0.1": {
+				"en": "initial release",
+				"de": "Erstveröffentlichung",
+				"ru": "Начальная версия",
+				"pt": "lançamento inicial",
+				"nl": "Eerste uitgave",
+				"fr": "Première version",
+				"it": "Versione iniziale",
+				"es": "Versión inicial",
+				"pl": "Pierwsze wydanie",
+				"zh-cn": "首次出版"
+			}
+		},
+		"title": "Node-Mihome",
+		"titleLang": {
+			"en": "Node-Mihome",
+			"de": "Node-Mihome",
+			"ru": "Узел-Михоме",
+			"pt": "Node-Mihome",
+			"nl": "Node-Mihome",
+			"fr": "Node-Mihome",
+			"it": "Node-Mihome",
+			"es": "Nodo-Mihome",
+			"pl": "Node-Mihome",
+			"zh-cn": "节点Mihome"
+		},
+		"desc": {
+			"en": "node-mihome",
+			"de": "Node-Mihome",
+			"ru": "узел-mihome",
+			"pt": "node-mihome",
+			"nl": "knooppunt-mihome",
+			"fr": "noeud-mihome",
+			"it": "node-mihome",
+			"es": "nodo-mihome",
+			"pl": "node-mihome",
+			"zh-cn": "节点mihome"
+		},
+		"authors": [
+			"hilde0407 <volkerhildebrand2000@yahoo.de>"
+		],
+		"keywords": [
+			"ioBroker",
+			"template",
+			"Smart Home",
+			"home automation"
+		],
+		"license": "MIT",
+		"platform": "Javascript/Node.js",
+		"main": "main.js",
+		"icon": "node-mihome.png",
+		"enabled": true,
+		"extIcon": "https://raw.githubusercontent.com/hilde0407/ioBroker.node-mihome/master/admin/node-mihome.png",
+		"readme": "https://github.com/hilde0407/ioBroker.node-mihome/blob/master/README.md",
+		"loglevel": "info",
+		"mode": "daemon",
+		"type": "iot-systems",
+		"compact": true,
+		"connectionType": "cloud",
+		"dataSource": "poll",
+		"materialize": true,
+		"dependencies": [
+			{
+				"js-controller": ">=2.0.0"
+			}
+		]
+	},
+	"native": {
+		"option1": true,
+		"option2": "42"
+	},
+	"objects": [],
+	"instanceObjects": []
+}
